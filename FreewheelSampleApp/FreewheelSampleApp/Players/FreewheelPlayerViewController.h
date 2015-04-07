@@ -8,8 +8,10 @@
 
 
 #import <UIKit/UIKit.h>
+
+#import <OoyalaSDK/OOEmbedTokenGenerator.h>
 #import "SampleAppPlayerViewController.h"
 
-@interface FreewheelPlayerViewController : SampleAppPlayerViewController
+@interface FreewheelPlayerViewController : SampleAppPlayerViewController <OOEmbedTokenGenerator>
 @end
 
